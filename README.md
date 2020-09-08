@@ -1,1 +1,1 @@
-This project is the layout the the Google homepage.
+This project is the layout of the Google homepage

@@ -3,6 +3,34 @@ body {
     font-size:13px;
     color: #222;
 }
+
+/* NAVBAR */
+
+ul {
+    line-height: 28px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+li {
+    float: right;
+    text-decoration: none;
+  }
+  
+  li a {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  li:hover {
+      text-decoration: underline;
+  }
+
 /* IMAGES */
 
 .center {
@@ -29,6 +57,21 @@ body {
     float: right;
 }
 
+.fa fa-th {
+    height:20px;
+    width:20px;
+
+}
+
+.card {
+    width: 30px;
+    height: 30px;
+    background: url("img/app2.png") no-repeat;
+    display: inline-block;
+}
+.card:hover {
+    background: url("img/apps1.png") no-repeat;
+}
 /* BUTTONS */
 
 #button1 , #button2 {
@@ -81,6 +124,18 @@ body {
     text-align: center;
 }
 
+#button3 {
+    
+    line-height: 28px;
+    padding: 0 12px;
+    color:#fff;
+    border: 1px solid #4285f4;
+    border-radius:2px;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+}
 
 /* SEARCH BAR */
 
@@ -132,4 +187,42 @@ input[type=text] {
     padding: 30px;
     margin:auto;
     width: 50%;
+}
+
+/* FOOTER */
+
+#footer {
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    padding-right: 27px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    font-size: 10pt;
+}
+
+#footer a {
+    color: #5f6368;
+    font-size: 14px;
+}
+
+.ftleft {
+    float: left;
+    
+}
+
+.ftright {
+    float:right;
+}
+
+.country {
+    font-size:14px;
+}
+.ireland{
+    border-bottom: 1px solid red;
 }
