@@ -149,7 +149,8 @@ li {
     display: flex block;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
-    max-width: 500px;
+    max-width: 600px;s
+    margin: auto;
     /**display: block;
     margin-top: 30px;
     margin-left: auto;
@@ -164,6 +165,7 @@ li {
     display: flex block;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
+    margin: auto;
     /**display: block;
     margin-top: 30px;
     margin-left: auto;
@@ -175,7 +177,7 @@ li {
 .search-bar {
     margin:auto;
     margin-top:7px;
-    max-width: 500px;
+    max-width: 600px;
     flex: 1;
     display: flex;
     padding-left: 14px;
