@@ -42,7 +42,7 @@ li {
 }
 
 .mag2 {
-    padding-top:15px;
+    padding-top:10px;
     padding-left:15px;
     height: 14px;
     width: 14px;
@@ -50,27 +50,22 @@ li {
 }
 
 .mic {
-    padding-top:15px;
+    padding-top:10px;
     padding-right:15px;
     height: 18px;
     width: 12px;
     float: right;
 }
 
-.fa fa-th {
-    height:20px;
-    width:20px;
-
-}
-
 .card {
-    width: 30px;
-    height: 30px;
-    background: url("img/app2.png") no-repeat;
+    margin: 8px;
+    height:32px;
+    width:32px;
+    background: url("img/gapps2.png") no-repeat;
     display: inline-block;
 }
 .card:hover {
-    background: url("img/apps1.png") no-repeat;
+    background: url("img/gapps.png") no-repeat;
 }
 /* BUTTONS */
 
@@ -139,32 +134,51 @@ li {
 
 /* SEARCH BAR */
 
+.container {
+    display: block;
+    margin: auto;
+    width:40%;
+    padding-top: 27px;
+}
+
 #myDiv {
     border: 1px solid #d6d6d6;
     border-radius: 25px;
-    height: 45px;
-    display: block;
+    height: 40px;
+    flex: 1;
+    display: flex block;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    max-width: 500px;
+    /**display: block;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 45%;**/
 }
 #myDiv:hover {
     border: 1px solid #d6d6d6;
     border-radius: 25px;
-    height: 45px;
-    display: block;
+    height: 40px;
+    flex: 1;
+    display: flex block;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    /**display: block;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width: 45%;**/
     -webkit-box-shadow: 0 0 5px rgb(182, 182, 182);
         box-shadow: 0 0 5px rgb(182, 182, 182);
 }
 .search-bar {
     margin:auto;
-    width: 85%;
     margin-top:7px;
+    max-width: 500px;
+    flex: 1;
+    display: flex;
+    padding-left: 14px;
 }
 
 input[type=text]:focus {
@@ -174,7 +188,7 @@ input[type=text] {
     border: none;
     border-radius: 10px;
     width:100%;
-    height: 30px;
+    height: 20px;
     font-size: 16px;
   }
 
@@ -193,17 +207,19 @@ input[type=text] {
 
 #footer {
     color: rgba(0,0,0,.54);
-    padding-left: 27px;
-    padding-right: 27px;
+
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background: #f2f2f2;
     line-height: 40px;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 1px solid rgb(230, 230, 230);
     font-size: 10pt;
+}
+.ftnav {
+    line-height: 20px;
+    padding-left: 27px;
 }
 
 #footer a {
@@ -212,17 +228,24 @@ input[type=text] {
 }
 
 .ftleft {
-    float: left;
-    
+    float: left; 
+    padding-right: 5px;
 }
 
 .ftright {
     float:right;
+
+}
+
+.ftrightset {
+    float:right;
+    padding-right: 15px;
 }
 
 .country {
     font-size:14px;
+    padding-left:35px;
 }
 .ireland{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgb(230, 230, 230);
 }
